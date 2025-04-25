@@ -1,3 +1,3 @@
-# Fynance.ai MVP
+# Fynance.ai – MVP
 
-Assistant IA pour directions financières.
+Assistant IA pour directions financières – vectorisation, chat RAG, orchestration n8n.
