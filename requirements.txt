@@ -1,0 +1,13 @@
+streamlit
+fastapi
+langchain
+openai
+pinecone-client
+PyMuPDF
+pytesseract
+pdfplumber
+unstructured
+tiktoken
+python-dotenv
+Pillow
+tqdm

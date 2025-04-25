@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: fynance-ui
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "streamlit run frontend/app.py --server.port=10000 --server.address=0.0.0.0"
+    repo: https://github.com/Steph341/fynance-app
+    branch: main
+  - type: web
+    name: fynance-backend
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "uvicorn backend.main:app --host 0.0.0.0 --port 8000"
+    repo: https://github.com/Steph341/fynance-app
+    branch: main

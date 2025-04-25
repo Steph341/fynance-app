@@ -1,0 +1,1 @@
+# OCR intelligent avec fallback
